@@ -1,0 +1,628 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Good afternoon",
+        "Is anyone there?",
+        "Wassup my Gee?",
+        "Yo Nigga",
+        "What's up?",
+        "Ayo merhn",
+        "Ayo my Gee",
+        "Ayo",
+        "How are you doing?",
+        "How's it going?",
+        "How are you?",
+        "How are you doing today?",
+        "How's it going today?",
+        "How are you today?",
+        "How are you doing this fine day?",
+        "How's it going this fine day?",
+        "How are you this fine day?",
+        "How are you doing this fine morning?",
+        "How's it going this fine morning?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! Welcome to KTU ChatMe.",
+        "Greetings! What do you need help with?",
+        "I am doing great, thanks! How can I help you?",
+        "I am doing well, thank you! How can I assist you today?",
+        "I am doing fine, thanks! What can I do for you?",
+        "I am doing great, thanks! What can I help you with?",
+        "I am doing well, thank you! What do you need assistance with?",
+        "I am doing fine, thanks! How can I assist you?",
+        "Wassup my Gee? How can I help you today?",
+        "Ayo merhn, I am KTU ChatMe and here to assist you with all your questions. Of what help may I be to you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you soon",
+        "Catch you later",
+        "I have to go",
+        "I am leaving now",
+        "I am done for now",
+        "I am out",
+        "I am done",
+        "I am leaving",
+        "I am going now",
+        "I am off",
+        "I am signing off",
+        "I am logging off",
+        "I am done chatting",
+        "I am done talking",
+        "I am done for today",
+        "I am done for now"
+        
+      ],
+      "responses": [
+        "Goodbye! Feel free to ask anytime.",
+        "See you later!",
+        "Thanks for reaching out to KTU.", 
+        "Bless up my Gee",
+        "Catch you later! If you have more questions, just ask.",
+        "I am out! If you need anything else, just let me know.",
+        "I am done! If you have more questions, just ask.",
+        "I am signing off! If you need anything else, just let me know.",
+        "I am logging off! If you have more questions, just ask.",
+        "I am done chatting! If you need anything else, just let me know.",
+        "I am done talking! If you have more questions, just ask.",
+        "I am done for today! If you need anything else, just let me know.",
+        "I am done for now! If you have more questions, just ask.",
+        "I am off! If you need anything else, just let me know.",
+        "I am leaving now! If you have more questions, just ask.",
+        "I am leaving! If you need anything else, just let me know.",
+        "I am done! If you have more questions, just ask.",
+        "I am done for now! If you need anything else, just let me know.",
+        "I am done for today! If you have more questions, just ask.",
+        "I am done for now! If you need anything else, just let me know."
+        
+      ]
+    },
+    {
+      "tag": "admission_info",
+      "patterns": [
+        "How do I apply for admission?",
+        "Admission requirements",
+        "KTU admission process",
+        "Admission guildlines",
+        "Admissions for KTU",
+        "What are the requirements for admission?",
+        "What is the admission process?",
+        "How do I apply for KTU?",
+        "How do I apply for Koforidua Technical University?",
+        "How do I apply for KTU admission?",
+        "What are the admission requirements for KTU?",
+        "What is the admission process for KTU?",
+        "What is the admission process for Koforidua Technical University?",
+        "What are the requirements for KTU admission?",
+        "What are the requirements for Koforidua Technical University admission?",
+        "What is the application process for KTU?",
+        "What is the application process for Koforidua Technical University?",
+        "How do I apply for KTU online?",
+        "How do I apply for Koforidua Technical University online?",
+        "How do I apply for KTU admission online?",
+        "How do I apply for Koforidua Technical University admission online?",
+        "What is the deadline for KTU admission?",
+        "What is the deadline for Koforidua Technical University admission?",
+        "What is the deadline for KTU admission application?",
+        "What is the deadline for Koforidua Technical University admission application?",
+        "What is the deadline for KTU admission application online?",
+        "What is the deadline for Koforidua Technical University admission application online?",
+        "What is the deadline for KTU admission application for the next academic year?",
+        "What is the deadline for Koforidua Technical University admission application for the next academic year?"
+      ],
+      "responses": [
+        "Apply online via https://admissions.ktu.edu.gh. You will find all requirements and deadlines there.",
+        "To apply for admission to KTU, visit the official admissions portal at https://admissions.ktu.edu.gh. You will find all the requirements and deadlines there.",
+        "To apply for admission to Koforidua Technical University, visit the official admissions portal at https://admissions.ktu.edu.gh. You will find all the requirements and deadlines there.",
+        "To apply for KTU admission, visit the official admissions portal at https://admissions.ktu.edu.gh. You will find all the requirements and deadlines there.",
+        "To apply for Koforidua Technical University admission, visit the official admissions portal at https://admissions.ktu.edu.gh. You will find all the requirements and deadlines there.",
+        "To apply for KTU online, visit the official admissions portal at https://admissions.ktu.edu.gh. You will find all the requirements and deadlines there.",
+        "To apply for Koforidua Technical University online, visit the official admissions portal at https://admissions.ktu.edu.gh. You will find all the requirements and deadlines there.",
+        "To apply for KTU admission online, visit the official admissions portal at https://admissions.ktu.edu.gh. You will find all the requirements and deadlines there.",
+        "To apply for Koforidua Technical University admission online, visit the official admissions portal at https://admissions.ktu.edu.gh. You will find all the requirements and deadlines there.",
+        "The deadline for KTU admission varies each year. Please check the official admissions portal at https://admissions.ktu.edu.gh for the most current information.",
+        "The deadline for Koforidua Technical University admission varies each year. Please check the official admissions portal at https://admissions.ktu.edu.gh for the most current information.",
+        "The deadline for KTU admission application varies each year. Please check the official admissions portal at https://admissions.ktu.edu.gh for the most current information.",
+        "The deadline for Koforidua Technical University admission application varies each year. Please check the official admissions portal at https://admissions.ktu.edu.gh for the most current information.",
+        "The deadline for KTU admission application online varies each year. Please check the official admissions portal at https://admissions.ktu.edu.gh for the most current information.",
+        "The deadline for Koforidua Technical University admission application online varies each year. Please check the official admissions portal at https://admissions.ktu.edu.gh for the most current information.",
+        "The deadline for KTU admission application for the next academic year will be announced on the official admissions portal at https://admissions.ktu.edu.gh.",
+        "The deadline for Koforidua Technical University admission application for the next academic year will be announced on the official admissions portal at https://admissions.ktu.edu.gh."
+        
+      ]
+    },
+    {
+      "tag": "certificate_request",
+      "patterns": [
+        "How do I apply for my certificate?",
+        "Request certificate",
+        "Certificate collection process",
+        "How do I apply for my transcript?",
+        "Request transcript",
+        "Transcript collection process",
+        "How do I apply for my documents?",
+        "Request document",
+        "Document collection process",
+        "How do I apply for my certificate or transcript?",
+        "How do I apply for my certificate or transcript or any related document?"
+               
+      ],
+      "responses": [
+        "To apply for your certificate or transcript or any related document, make payments to any of these KTU accredited banks(UMB Bank, Republic Bank, Fidelity Bank and ADB Bank) on the agreed amount using your KTU index number or dial *776*123# and follow the prompt to pay using mobile money. After successful payment, visit the student portal at https://identity.ktu.edu.gh and request fro your document in your portal when you login with your student mail and password.",
+        "Apply online via https://admissions.ktu.edu.gh. You will find all requirements and deadlines there."
+
+      ]
+    },
+{
+  "tag": "mobile_money_payment",
+  "patterns": [
+    "How do I make payment using the shortcode?",
+    "How can I pay with mobile money?",
+    "Show me how to pay with mobile money",
+    "Can you show me how to use the *776*123#?",
+    "Can you list the processes I can use to make payments using the ussd code?",
+    "Take me through the processes involved in using the shortcode.",
+    "How do I pay school fees using the shortcode?",
+    "How do I pay for my certificate, transcript, hostel, resit, graduation or any document using the shortcode?",
+    "How do I pay school fees using the USSD code?",
+    "How do I pay for my certificate, transcript, hostel, resit, graduation or any document using the USSD code?",
+    "How do I pay school fees using the shortcode or USSD?",
+    "How do I pay for my certificate, transcript, hostel, resit, graduation or any document using the shortcode or USSD?"
+
+  ],
+  "responses": [
+    "Sure I can help with the processes using the shortcode or the USSD to pay school fees, certificate, transcript or any other related item or document with mobile money. Kindly follow the instructions below:\\n1. Dial *776*123# on your phone for all networks\\n2. Enter institution code: KTU\n3. Select Payment Item: School fees payment\n4. Enter student ID/Application ID. Use your index number if you are applying for certificate, transcript, hostel, resit, graduation or any document. Only enter your application ID if you are a fresher just admitted and want to pay school fees. You can find it on your admission letter.\n5. Select fee item: Choose the number that corresponds to your payment.\n6. Enter amount: Enter the required amount.\n7. Select payment mode: Choose option 2 (Mobile Money)\n8. Confirm the details before selecting option 1 to proceed.\n9. Wait for the prompt and enter your Mobile Money PIN to complete the payment.\n\nAfter successful payment, visit the student portal at https://identity.ktu.edu.gh and register yor courses  for the semester,  apply for certificate, transcript or any document in your portal when you login with your student email and password.",
+    "Dial *776*123# on all networks and follow the prompts.",
+    "To make payment using the shortcode, dial *776*123# on your phone and follow the prompts. You will need to enter your institution code (KTU), select the payment item, enter your student ID or application ID, choose the fee item, enter the amount, select the payment mode (Mobile Money), confirm the details, and then enter your Mobile Money PIN to complete the payment."
+
+  ]
+},
+
+    {
+      "tag": "transcript_request",
+      "patterns": [
+        "How can I get my transcript?",
+        "Transcript application",
+        "I need my academic transcript",
+        "How do I request my transcript?",
+        "How do I apply for my transcript?",
+        "How do I get my transcript?"
+      ],
+      "responses": [
+        "To apply for your certificate or transcript or any related document, make payments to any of these KTU accredited banks(UMB Bank, Republic Bank, Fidelity Bank and ADB Bank) on the agreed amount using your KTU index number or dial *776*123# and follow the prompt to pay using mobile money. After successful payment, visit the student portal at https://identity.ktu.edu.gh and request fro your document in your portal when you login with your student mail and password.",
+        "Apply online via https://admissions.ktu.edu.gh. You will find all requirements and deadlines there."
+        
+        
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "KTU fees",
+        "How much is the school fees?",
+        "Tuition",
+        "Fees for international students"
+      ],
+      "responses": [
+        "Check the current fees schedule at https://ktu.edu.gh/fees. It depends on your program and level."
+      ]
+    },
+    {
+      "tag": "registration",
+      "patterns": [
+        "Register for courses",
+        "How to register",
+        "Course registration"
+      ],
+      "responses": [
+        "Use the student portal to register for your courses: https://identity.ktu.edu.gh"
+      ]
+    },
+    {
+      "tag": "results",
+      "patterns": [
+        "How can I check my results?",
+        "Student results",
+        "My grades",
+        "How do I view my results?",
+        "How do I check my grades?",
+        "How do I view my grades?"
+        
+      ],
+      "responses": [
+        "Log into the portal to check your results: https://identity.ktu.edu.gh",
+        "You can check your results by logging into the student portal at https://identity.ktu.edu.gh with your student email and password.",
+        "To check your results, log into the student portal at https://identity.ktu.edu.gh with your student email and password. You will find your grades there.",
+        "To view your results, log into the student portal at https://identity.ktu.edu.gh with your student email and password. You will find your grades there.",
+        "To check your grades, log into the student portal at https://identity.ktu.edu.gh with your student email and password. You will find your results there.",
+        "To view your grades, log into the student portal at https://identity.ktu.edu.gh with your student email and password. You will find your results there."
+
+        
+      ]
+    },
+
+
+    {
+      "tag": "programmes",
+      "patterns": [
+        "How many programs dos KTU offer?",
+        "What programs does ktu offer",
+        "ktu programes"
+      ],
+
+      "responses": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Hostel application",
+        "Student accommodation",
+        "Hostel fees",
+        "Where can I find hostel information?",
+        "How do I apply for a hostel?",
+        "How do I apply for a hostel or student accommodation?",
+        "What are the hostel fees?",
+        "What are the fees for student accommodation?",
+        "Where can I find information about hostels?",
+        "Where can I find information about student accommodation?",
+        "Where can I find hostel information or student accommodation?",
+        "Where can I find information about hostels or student accommodation?"
+      ],
+      "responses": [
+        "KTU has on-campus and private hostels. Details are at https://hostel.ktu.edu.gh",
+        "To apply for a hostel or student accommodation, visit the official hostel portal at https://hostel.ktu.edu.gh. You will find all the information you need there.",
+        "To apply for a hostel, visit the official hostel portal at https://hostel.ktu.edu.gh. You will find all the information you need there.",
+        "To apply for student accommodation, visit the official hostel portal at https://hostel.ktu.edu.gh. You will find all the information you need there.",
+        "The hostel fees vary depending on the type of accommodation you choose. You can find the fees for student accommodation on the official hostel portal at https://hostel.ktu.edu.gh.",
+        "The fees for student accommodation vary depending on the type of accommodation you choose. You can find the fees for hostels on the official hostel portal at https://hostel.ktu.edu.gh.",
+        "You can find information about hostels on the official hostel portal at https://hostel.ktu.edu.gh.",
+        "You can find information about student accommodation on the official hostel portal at https://hostel.ktu.edu.gh.",
+        "You can find hostel information or student accommodation on the official hostel portal at https://hostel.ktu.edu.gh.",
+        "You can find information about hostels or student accommodation on the official hostel portal at https://hostel.ktu.edu.gh."
+      ]
+    },
+    {
+      "tag": "graduation_info",
+      "patterns": [
+        "When is graduation?",
+        "Graduation requirements",
+        "Graduation application",
+        "Graduation date",
+        "Graduation ceremony",
+        "Graduation information",
+        "When is the next graduation ceremony?",
+        "What are the requirements for graduation?",
+        "How do I apply for graduation?",
+        "When is the graduation date?",
+        "When is the next graduation ceremony?",
+        "What are the requirements for graduation?",
+        "How do I apply for graduation?",
+        "What is the graduation date?",
+        "What is the next graduation ceremony?"
+      ],
+      "responses": [
+        "Graduation info is usually posted on the homepage and in your department. Stay updated at https://ktu.edu.gh and various notice boards on campus.",
+        "Graduation information is usually posted on the homepage and in your department. Stay updated at https://ktu.edu.gh and various notice boards on campus.",
+        "The next graduation ceremony date will be announced on the official KTU website and notice boards. Keep an eye on https://ktu.edu.gh for updates.",
+        "The requirements for graduation vary by program. You can find the specific requirements on the official KTU website or by contacting your department.",
+        "To apply for graduation, you need to complete the graduation application form available on the official KTU website. Make sure to check the deadlines and requirements for your program.",
+        "The graduation date for the next ceremony will be announced on the official KTU website and notice boards. Keep an eye on https://ktu.edu.gh for updates.",
+        "The next graduation ceremony date will be announced on the official KTU website and notice boards. Keep an eye on https://ktu.edu.gh for updates.",
+        "The requirements for graduation vary by program. You can find the specific requirements on the official KTU website or by contacting your department.",
+        "To apply for graduation, you need to complete the graduation application form available on the official KTU website. Make sure to check the deadlines and requirements for your program.",
+        "The graduation date for the next ceremony will be announced on the official KTU website and notice boards. Keep an eye on https://ktu.edu.gh for updates."
+      ]
+    },
+    {
+      "tag": "industrial_attachment",
+      "patterns": [
+        "Internship",
+        "Industrial attachment",
+        "Attachment letters",
+        "How do I apply for industrial attachment on campus?",
+        "How do I apply for internship on campus?",
+        "How do I apply for industrial attachment or internship on campus?",
+        "How do I get my attachment letter?",
+        "How do I get my internship letter?",
+        "How do I get my industrial attachment letter?",
+        "How do I get my attachment letter or internship letter or industrial attachment letter?"
+      ],
+      "responses": [
+        "You can download your attachment letter from your student portal at https://identity.ktu.edu.gh.",
+        "To apply for industrial attachment or internship on campus, visit your department's office for guidance. They will provide you with the necessary forms and information.",
+        "To apply for industrial attachment on campus, visit your department's office for guidance. They will provide you with the necessary forms and information.",
+        "To apply for internship on campus, visit your department's office for guidance. They will provide you with the necessary forms and information.",
+        "To apply for industrial attachment or internship on campus, visit your department's office for guidance. They will provide you with the necessary forms and information.",
+        "To get your attachment letter, log into the student portal at https://identity.ktu.edu.gh with your student email and password. You will find the attachment letter there."
+      ]
+    },
+    {
+  "tag": "student_support",
+  "patterns": [
+    "I have a complaint",
+    "I need help",
+    "Student support",
+    "Where can I report an issue?",
+    "How do I submit a complaint?",
+    "How do I report a problem?",
+    "How do I submit a complaint or report a problem?",
+    "How do I submit a complaint or report a problem or issue?",
+    "How do I submit a complaint or report a problem or issue or concern?",
+    "How do I submit a complaint or report a problem or issue or concern or feedback?",
+    "How do I submit a complaint or report a problem or issue or concern or feedback or suggestion?",
+    "How do I submit a complaint or report a problem or issue or concern or feedback or suggestion or inquiry?",
+    "How do I submit a complaint or report a problem or issue or concern or feedback or suggestion or inquiry or request?",
+    "How do I submit a complaint or report a problem or issue or concern or feedback or suggestion or inquiry or request or question?",
+    "How do I submit a complaint or report a problem or issue or concern or feedback or suggestion or inquiry or request or question or comment?",
+    "How do I submit a complaint or report a problem or issue or concern or feedback or suggestion or inquiry or request or question or comment or observation?",
+    "How do I submit a complaint or report a problem or issue or concern or feedback or suggestion or inquiry or request or question or comment or observation or recommendation?"
+  ],
+  "responses": [
+    "You can submit complaints via the SRC office or these offices through their respective emails and phone numbers:\n\n1. Help Desk: (+233) 034 229 3005 - support@ktu.edu.gh\n2. Student Services Dept: (+233) 034 229 0311 - studentsservices@ktu.edu.gh\n3. Admission Office: (+233) 034 229 3705 - admissions@ktu.edu.gh\n4. Director (Int. Relations): (+233) 034 229 3974 - iril@ktu.edu.gh\n5. Vice Chancellor Secretariat: (+233) 034 229 3002 - vc@ktu.edu.gh\n6. Liaison Office: (+233) 030 396 1714 - ilo@ktu.edu.gh\n7. Security Hotline: (+233) 034 229 4185 - security@ktu.edu.gh\n8. Student Accounts Office: (+233) 034 229 3598 - sa@ktu.edu.gh\n9. ICT Directorate: (+233) 034 229 3596 - support@ktu.edu.gh",
+    "You can submit a complaint or report a problem by visiting the SRC office or by contacting the relevant department via email or phone. You can also use the online complaint form available on the KTU website.",
+    "To submit a complaint or report a problem, you can visit the SRC office or contact the relevant department via email or phone. You can also use the online complaint form available on the KTU website."
+  ]
+},
+    {
+      "tag": "deferment",
+      "patterns": [
+        "How to defer my course?",
+        "Deferment process",
+        "I want to defer this semester",
+        "How do I defer my studies?",
+        "How do I defer my course?",
+        "How do I defer my semester?",
+        "How do I defer my studies?",
+        "How do I defer my course or semester?",
+        "How do I defer my studies or course?",
+        "How do I defer my semester or course?",
+        "How do I defer my studies or semester?",
+        "How do I defer my course or semester or studies?"
+      ],
+      "responses": [
+        "Write a letter stating reason for deferment and submit it to your department's HOD for further processing. Kindly make follow ups to ensure it is successful",
+        "To defer your course, write a letter stating your reason for deferment and submit it to your department's Head of Department (HOD) for further processing. Make sure to follow up to ensure it is successful."
+      ]
+    },
+    {
+      "tag": "resit_info",
+      "patterns": [
+        "How do I resit a paper?",
+        "Resit exams",
+        "Repeat a failed course",
+        "How do I register for resit exams?",
+        "How do I resit a paper or repeat a failed course?",
+        "How do I register for resit exams or repeat a failed course?",
+        "How do I register for resit exams or repeat a failed course or paper?"
+
+      ],
+      "responses": [
+        "Resit registration timetable will  be sent your student mail and pasted on all campus notice boards. Keep an eye on announcements in your student mail or notice boards.",
+        "To resit a paper or repeat a failed course, you need to register for the resit exams during the registration period. The timetable for resit registration will be sent to your student mail and posted on all campus notice boards. Keep an eye on announcements in your student mail or notice boards.",
+        "To register for resit exams or repeat a failed course, you need to follow the resit registration timetable that will be sent to your student mail and posted on all campus notice boards. Keep an eye on announcements in your student mail or notice boards.",
+        "To register for resit exams or repeat a failed course or paper, you need to follow the resit registration timetable that will be sent to your student mail and posted on all campus notice boards. Keep an eye on announcements in your student mail or notice boards."
+      ]
+    },
+    {
+      "tag": "student_loan",
+      "patterns": [
+        "Does the school give loan to students?",
+        "How do I apply for student loan?",
+        "What can I do if I don't have money to pay my school fees?",
+        "How do I apply for a student loan?"
+
+      ],
+      "responses": [
+        "You can visit the student loan trust fund website at https://www.sltf.gov.gh and apply  for a student load or vist the campus office and apply  for the student",
+        "To apply for a student loan, you can visit the student loan trust fund website at https://www.sltf.gov.gh and follow the application process. You can also visit the campus office for assistance with the application.",
+        "If you don't have money to pay your school fees, you can apply for a student loan through the student loan trust fund website at https://www.sltf.gov.gh or visit the campus office for assistance with the application."
+
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "KTU phone number",
+        "Contact KTU",
+        "Email KTU",
+        "How do I contact KTU?",
+        "What is the contact number for KTU?",
+        "What is the email address for KTU?",
+        "How can I reach KTU for inquiries?"
+      ],
+      "responses": [
+        "Call +233 3420 22964 or email info@ktu.edu.gh for general inquiries.",
+        "You can contact KTU by calling +233 3420 22964 or emailing info@ktu.edu.gh",
+        "For general inquiries, you can reach KTU at +233 3420 22964 or email info@ktu.edu.gh",
+        "To contact KTU, you can call +233 3420 22964 or email info@ktu.edu.gh",
+        "For inquiries, you can reach KTU at +233 3420 22964 or email info@ktu.edu.gh"
+
+      ]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "Semester dates",
+        "Academic calendar",
+        "School reopening date",
+        "When does the semester start?",
+        "When does the semester end?",
+        "What are the important dates for this semester?",
+        "What is the academic calendar for this semester?",
+        "What is the academic calendar for this academic year?",
+        "What are the important dates for this academic year?",
+        "What is the academic calendar for this semester or academic year?",
+        "What are the important dates for this semester or academic year?",
+        "What is the academic calendar for this semester or academic year or important dates?"
+      ],
+      "responses": [
+        "You can view the academic calendar here: https://ktu.edu.gh/calendar"
+      ]
+    },
+    {
+      "tag": "library_services",
+      "patterns": [
+        "Library hours",
+        "Borrow books",
+        "Is the library open?",
+        "Library services",
+        "What are the library hours?",
+        "What are the library services?",
+        "What are the library hours or services?",
+        "What are the library hours or services or opening hours?",
+        "What are the library hours or services or opening hours or closing hours?",
+        "What are the library hours or services or opening hours or closing hours or library information?",
+        "What are the library hours or services or opening hours or closing hours or library information or library services?",
+        "What are the library hours or services or opening hours or closing hours or library information or library services or library hours?",
+        "How can I borrow a book from the library?",
+        "How do I access library services?",
+        "How do I borrow books from the library?",
+        "How do I access library services or borrow books from the library?"
+
+
+      ],
+      "responses": [
+        "Library hours are Mon-Fri 8AM to 5PM. More info: https://library.ktu.edu.gh",
+        "The library is open Monday to Friday from 8 AM to 5 PM. You can borrow books by visiting the library and following the borrowing procedures. For more information, visit https://library.ktu.edu.gh."
+      ]
+    },
+    {
+      "tag": "lecture_timetable",
+      "patterns": [
+        "Class schedule",
+        "Timetable",
+        "When are my lectures?",
+        "Lecture timetable",
+        "What is my class schedule?",
+        "What is my timetable?",
+        "What is my lecture timetable?",
+        "How do I find my class schedule?",
+        "How do I find my timetable?",
+        "How do I find my lecture timetable?",
+        "How do I find my class schedule or timetable?",
+        "How do I find my lecture timetable or class schedule?",
+        "How do I find my lecture timetable or timetable?"
+      ],
+      "responses": [
+        "Lecture timetables are sent to all students via student mail  and sometimes sent to your class WhatsApp groups by your class rep.",
+        "Your lecture timetable will also be sent to you via your student mail and sometimes filtered by your class rep and posted in your class WhatsApp group by your class rep.",
+        "Your class schedule will also be sent to you via your student mail and sometimes filtered by your class rep and posted in your class WhatsApp group by your class rep."
+
+      ]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": [
+        "Exam timetable",
+        "When are the exams?",
+        "Exam period",
+        "Exam schedule",
+        "What is the exam timetable?",
+        "What is the exam schedule?",
+        "When is the exam period?",
+        "When is the exam timetable?",
+        "When is the exam schedule?",
+        "How do I find my exam timetable?",
+        "How do I find my exam schedule?",
+        "Any info on time table",
+        "Any information on timetable",
+        "How do I find my exam period?",
+        "How do I find my exam timetable or schedule?",
+        "How do I find my exam timetable or schedule or period?",
+        "How do I find my exam timetable or schedule or period or dates?",
+        "How do I find my exam timetable or schedule or period or dates or information?",
+        "How do I find my exam timetable or schedule or period or dates or information or details?",
+        "How do I find my exam timetable or schedule or period or dates or information or details or announcements?",
+        "How do I find my exam timetable or schedule or period or dates or information or details or announcements or updates?",
+        "How do I find my exam timetable or schedule or period or dates or information or details or announcements or updates or news?",
+        "How do I find my exam timetable or schedule or period or dates or information or details or announcements or updates or news or notifications?",
+        "How do I find my exam timetable or schedule or period or dates or information or details or announcements or updates or news or notifications or alerts?"
+      ],
+      "responses": [
+        "Your exam timetable will be sent to you via your student mail and sometimes filtered by your class rep and posted in your class WhatsApp group by your class rep.",
+        "The exam timetable will be sent to you via your student mail and sometimes filtered by your class rep and posted in your class WhatsApp group by your class rep.",
+        "To find your exam timetable, check your student mail. It will also be filtered by your class rep and posted in your class WhatsApp group."
+      ]
+    },
+    {
+      "tag": "student_portal_help",
+      "patterns": [
+        "Portal login help",
+        "Reset my password",
+        "Can't access portal",
+        "Student portal issues",
+        "How do I reset my student portal password?",
+        "How do I reset my student portal password or login help?",
+        "How do I reset my student portal password or login help or access issues?",
+        "How do I reset my student portal password or login help or access issues or support?",
+        "How do I reset my student portal password or login help or access issues or support or assistance?",
+        "How do I reset my student portal password or login help or access issues or support or assistance or troubleshooting?",
+        "How do I reset my student portal password or login help or access issues or support or assistance or guidance?",
+        "How do I reset my student portal password or login help or access issues or support or assistance or guidance or help?",
+        "How do I reset my student portal password or login help or access issues or support or assistance or guidance or help or contact?",
+        "How do I reset my student portal password or login help or access issues or support or assistance or guidance or help or contact or email?"
+      ],
+      "responses": [
+        "For issues with your student portal, contact ICT Directorate at support@ktu.edu.gh or call (+233) 0342293596.",
+        "If you are having trouble accessing the student portal, you can reset your password by visiting the portal login page and clicking on the 'Forgot Password' link. If you need further assistance, contact the ICT Directorate at support@ktu.edu.gh or call (+233) 0342293596.",
+        "If you need help with your student portal, you can reset your password by visiting the portal login page and clicking on the 'Forgot Password' link. If you are still having issues accessing the portal, contact the ICT Directorate at support@ktu.edu.gh or call (+233) 0342293596."
+      ]
+    },
+    {
+      "tag": "financial_aid_support",
+      "patterns": [
+        "Are there any scholarships?",
+        "Apply for bursary",
+        "Financial assistance",
+        "Financial aid",
+        "Financial suport",
+        "How do I apply for financial aid or suport?",
+        "How do I apply for financial aid or support?",
+        "How do I apply for financial aid or support or bursary?",
+        "How do I apply for financial aid or support or bursary or scholarship?",
+        "How do I apply for financial aid or support or bursary or scholarship or loan?"
+      ],
+      "responses": [
+        "The University offers only financial aid to brialliant but needy students. To apply for financial aid, Log in to your student portal at https://identity.ktu.edu.gh with your student mail and password. Make sure you have a CGPA of 3.50 or more in order to apply.",
+        "To apply for financial aid or support, you can log in to your student portal at https://identity.ktu.edu.gh with your student email and password. Make sure you have a CGPA of 3.50 or more in order to apply."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is KTU located?",
+        "Address of the university",
+        "Map to KTU",
+        "How do I get to KTU?",
+        "Where is Koforidua Technical University located?",
+        "What is the address of Koforidua Technical University?",
+        "Where is Koforidua Technical University?",
+        "What is the address of Koforidua Technical University?",
+        "Where can I find KTU on the map?",
+        "Where can I find Koforidua Technical University on the map?",
+        "How do I get to KTU from Accra?",
+        "Where can I find KTU?",
+        "KTU location"
+      ],
+      "responses": [
+        "KTU is located in Koforidua, Eastern Region, Ghana. Directions: https://maps.google.com/?q=Koforidua+Technical+University"
+      ]
+    }
+  ]
+}

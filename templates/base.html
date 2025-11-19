@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTU Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Background Website -->
+    <iframe class="background-site" src="https://www.ktu.edu.gh" frameborder="0"></iframe>
+
+    <!-- Chatbot Overlay -->
+    <div class="chatbot-overlay">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="{{ url_for('static', filename='images/head.png') }}" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">KTU CHAT ME</h4>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+  <div class="chatbox__circle">
+    <svg viewBox="0 0 100 100" class="chatbox__text-circle">
+      <defs>
+        <path id="circlePath"
+              d="M50,50 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" />
+      </defs>
+      <text font-size="12" font-weight="bold" fill="#555">
+        <textPath xlink:href="#circlePath" startOffset="0%">
+           • CLICK ME TO CHAT • 
+        </textPath>
+      </text>
+    </svg>
+    <button class="chatbox__logo-btn">
+      <img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" alt="Chatbot Logo" class="chatbox__logo">
+    </button>
+  </div>
+</div>
+
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
